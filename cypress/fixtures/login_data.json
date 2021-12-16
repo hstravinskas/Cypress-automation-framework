@@ -1,0 +1,15 @@
+{
+  "correct":{
+      "username": "tomsmith",
+      "password": "SuperSecretPassword!"
+      
+  },
+  "incorrectUsername":{
+      "username": "incorrect",
+      "password": "SuperSecretPassword!"
+  },
+  "incorrectPassword":{
+      "username": "tomsmith",
+      "password": "incorrect"
+  }
+}
