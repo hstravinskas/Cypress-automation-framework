@@ -9,5 +9,8 @@ class TheInternetHomepagePO{
     navigateToCheckboxes(){
         cy.get("ul > :nth-child(6) > a").click();
     }
+    navigateToUpload(){
+        cy.get("ul > :nth-child(18) > a").click();
+    }
 };
 export default TheInternetHomepagePO;
